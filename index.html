@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه سرزمین کتاب</title>
+
+    <!-- اتصال Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f0e8;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background-color: #563d2d;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #795548;
+            display: flex;
+            
+        }
+
+        nav a {
+            color: white !important;
+            text-decoration: none;
+            margin: 10px;
+            
+        }
+
+        .banner {
+            background-color: #e6d5c3;
+            padding: 45px;
+            text-align: center;
+            margin: 20px 0;
+            border-radius: 20px;
+        }
+
+        .img-fluid {
+            border-radius: 15px;
+        }
+
+        h2 {
+            color: #563d2d;
+            text-align: center;
+            margin: 25px;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            border: 2px solid #c5a58a;
+            text-align: center;
+        }
+
+        .card img {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .btn-book {
+            background-color: #795548;
+            color: white;
+        }
+
+        footer {
+            background-color: #563d2d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- عنوان فروشگاه -->
+<header>
+    <h1>سرزمین کتاب</h1>
+    <p>به سرزمین کتاب ها خوش آمدید</p>
+</header>
+
+<!-- منوی ناوبری -->
+<nav class="navbar navbar-expand-lg align-items-center">
+    <div class="container">
+        <div class="navbar-nav">
+            <a class="nav-link" href="#home">خانه</a>
+            <a class="nav-link" href="#products">محصولات</a>
+            <a class="nav-link" href="#about">درباره ما</a>
+            <a class="nav-link" href="#contact">تماس با ما</a>
+        </div>
+    </div>
+</nav>
+
+<!-- تصویر و معرفی فروشگاه -->
+<div class="container" id="home">
+    <div class="banner">
+        <h2>دنیای زیبای کتاب ها</h2>
+        <p>کتاب مورد علاقه خود را از ما بخواهید!</p>
+        <img src="bookland_images/banner.jpg"
+             class="img-fluid" alt="فروشگاه کتاب">
+    </div>
+</div>
+
+<!-- محصولات -->
+<div class="container" id="products">
+    <h2>محصولات فروشگاه</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img src="bookland_images/sh-checkout.jpg" class="card-img-top" alt="شازده کوچولو">
+                <div class="card-body">
+                    <h5>شازده کوچولو</h5>
+                    <p>قیمت: ۱۵۰ هزار تومان</p>
+                    <p>داستانی زیبا و آموزنده</p>
+                    <button class="btn btn-book">مشاهده محصول</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img src="bookland_images/dokhtari.jpg" class="card-img-top" alt="دختری که ماه را نوشید">
+                <div class="card-body">
+                    <h5>دختری که ماه را نوشید</h5>
+                    <p>قیمت: ۲۲۰ هزار تومان</p>
+                    <p>یک داستان فانتزی جذاب</p>
+                    <button class="btn btn-book">مشاهده محصول</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img src="bookland_images/mellat-eshgh.jpg" class="card-img-top" alt="ملت عشق">
+                <div class="card-body">
+                    <h5>ملت عشق</h5>
+                    <p>قیمت: ۱۸۰ هزار تومان</p>
+                    <p>رمانی خواندنی و جذاب</p>
+                    <button class="btn btn-book">مشاهده محصول</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img src="bookland_images/asare-morakkab.jpg" class="card-img-top" alt="اثر مرکب">
+                <div class="card-body">
+                    <h5>اثر مرکب</h5>
+                    <p>قیمت: ۲۰۰ هزار تومان</p>
+                    <p>کتابی برای رشد فردی</p>
+                    <button class="btn btn-book">مشاهده محصول</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img src="bookland_images/ghale-heivanat.jpg" class="card-img-top" alt="قلعه حیوانات">
+                <div class="card-body">
+                    <h5>قلعه حیوانات</h5>
+                    <p>قیمت: ۱۲۰ هزار تومان</p>
+                    <p>داستانی متفاوت و جالب</p>
+                    <button class="btn btn-book">مشاهده محصول</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <div class="card">
+                <img src="bookland_images/arezuha.jpg" class="card-img-top" alt="آرزوهای بزرگ">
+                <div class="card-body">
+                    <h5>آرزوهای بزرگ</h5>
+                    <p>قیمت: ۱۷۰ هزار تومان</p>
+                    <p>یک رمان کلاسیک زیبا</p>
+                    <button class="btn btn-book">مشاهده محصول</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- درباره ما -->
+<div class="container" id="about">
+    <h2>درباره ما</h2>
+    <p class="text-center">
+        فروشگاه سرزمین کتاب با هدف علاقه مند کردن افراد به کتاب خوانی
+        فعالیت می کند و انواع کتاب ها را ارائه می دهد.
+    </p>
+</div>
+
+<!-- اطلاعات تماس -->
+<footer id="contact">
+    <h3>تماس با ما</h3>
+    <p>شماره تماس: 09120000000</p>
+    <p>ایمیل: bookland@gmail.com</p>
+    <p>آدرس: تهران</p>
+    <p>تمامی حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>
